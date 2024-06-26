@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="filming-application-rating" />
+        <module name="filming-infra-rating" />
+        <module name="filming-infra-common" />
+        <module name="filming-application-filmcatalog" />
+        <module name="filming-domain-filmcatalog" />
+        <module name="filming-application-common" />
+        <module name="filming-domain-common" />
+        <module name="filming-infra-filmcatalog" />
+        <module name="filming-infra-bootstrap" />
+        <module name="filming-domain-rating" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="filming-infra-adaptor" target="17" />
+      <module name="filming-infra-catalog-in" target="17" />
+      <module name="filming-infra-catalog-in-dto" target="17" />
+      <module name="filming-infra-catalog-in-rest" target="17" />
+      <module name="filming-infra-catalog-out-adaptor" target="17" />
+      <module name="filming-infra-catalog-out-jpa" target="17" />
+      <module name="filming-infra-catalog.out" target="17" />
+      <module name="filming-infra-in" target="17" />
+      <module name="filming-infra-in-rest" target="17" />
+      <module name="filming-infra-out" target="17" />
+      <module name="filming-infra-payment" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="filming" options="" />
+      <module name="filming-domain" options="" />
+      <module name="filming-domain-common" options="" />
+      <module name="filming-domain-filmcatalog" options="" />
+      <module name="filming-domain-rating" options="" />
+      <module name="filming-infra" options="" />
+      <module name="filming-infra-adaptor" options="-parameters" />
+      <module name="filming-infra-bootstrap" options="-parameters" />
+      <module name="filming-infra-catalog-in" options="" />
+      <module name="filming-infra-catalog-in-dto" options="-parameters" />
+      <module name="filming-infra-catalog-in-rest" options="-parameters" />
+      <module name="filming-infra-catalog-out-adaptor" options="-parameters" />
+      <module name="filming-infra-catalog-out-jpa" options="-parameters" />
+      <module name="filming-infra-catalog.out" options="" />
+      <module name="filming-infra-common" options="-parameters" />
+      <module name="filming-infra-filmcatalog" options="-parameters" />
+      <module name="filming-infra-in" options="" />
+      <module name="filming-infra-in-rest" options="-parameters" />
+      <module name="filming-infra-out" options="-parameters" />
+      <module name="filming-infra-payment" options="-parameters" />
+      <module name="filming-infra-rating" options="-parameters" />
+    </option>
+  </component>
+</project>

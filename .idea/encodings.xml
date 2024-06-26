@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/filming/application/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/application/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/application/filmcatalog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/application/filmcatalog/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/application/rating/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/application/rating/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/filmcatalog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/filmcatalog/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/rating/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/rating/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/adaptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/in/dto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/in/rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/in/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/in/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/out/adaptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/out/jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/out/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/out/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/filmcatalog/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/in/rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/in/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/in/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/out/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/payment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/rating/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/infra/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filming/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

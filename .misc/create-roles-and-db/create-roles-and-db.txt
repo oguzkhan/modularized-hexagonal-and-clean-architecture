@@ -1,0 +1,45 @@
+-- Connect to database server with postgres superuser using psql client
+
+-- Create Roles
+CREATE USER "filming_admin" WITH PASSWORD '1';
+CREATE USER "filming_web" WITH PASSWORD '1';
+
+
+-- Create Database
+CREATE DATABASE "filming_db" WITH OWNER "filming_admin";
+
+-- Connect to database with postgres superuser
+\c filming_db postgres
+
+-- Drop public schema, create schemas for services
+DROP SCHEMA public;
+CREATE SCHEMA filming AUTHORIZATION filming_admin;
+ALTER ROLE filming_admin SET search_path TO filming;
+ALTER ROLE filming_web SET search_path TO filming;
+
+
+-- Create citex extension
+CREATE EXTENSION IF NOT EXISTS citext WITH SCHEMA filming;
+
+
+-- Connect to database with admin user
+\c filming_db filming_admin
+
+-- Grant web app users read permission
+GRANT USAGE ON SCHEMA filming TO filming_web;
+
+-- Remove admin users function execute permissions on public schema
+ALTER DEFAULT PRIVILEGES FOR ROLE filming_admin
+REVOKE EXECUTE ON FUNCTIONS FROM PUBLIC;
+
+-- Grant web app users CRUD permissions
+ALTER DEFAULT PRIVILEGES FOR ROLE filming_admin IN SCHEMA filming
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES TO filming_web;
+
+-- Grant web app users use sequence
+ALTER DEFAULT PRIVILEGES FOR ROLE filming_admin IN SCHEMA filming
+GRANT SELECT, USAGE ON SEQUENCES TO filming_web;
+
+-- Grant web app users to call functions
+ALTER DEFAULT PRIVILEGES FOR ROLE filming_admin IN SCHEMA filming
+GRANT EXECUTE ON FUNCTIONS TO filming_web;

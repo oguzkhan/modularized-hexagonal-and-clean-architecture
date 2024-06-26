@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dev.moozavar.filming-system</groupId>
+	<artifactId>filming</artifactId>
+	<version>0.0.1</version>
+	<packaging>pom</packaging>
+	<name>filming</name>
+	<description>Main backend for filming system</description>
+	<developers>
+		<developer>
+			<name>Mehmet Oğuzhan Özavar</name>
+			<email>hanoguz@gmail.com</email>
+		</developer>
+	</developers>
+	<modules>
+		<module>domain</module>
+		<module>infra</module>
+        <module>application</module>
+    </modules>
+	<properties>
+		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<filming.version>0.0.1</filming.version>
+		<lombok.version>1.18.32</lombok.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+</project>

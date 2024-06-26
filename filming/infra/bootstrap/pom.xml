@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>dev.moozavar.filming-system</groupId>
+        <artifactId>filming-infra</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>filming-infra-bootstrap</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>dev.moozavar.filming-system</groupId>
+            <artifactId>filming-infra-filmcatalog</artifactId>
+            <version>${filming.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.moozavar.filming-system</groupId>
+            <artifactId>filming-infra-rating</artifactId>
+            <version>${filming.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <configuration>
+                    <mainClass>dev.moozavar.filming_system.filming.FilmingApplication</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>repackage</id>
+                        <configuration>
+                            <classifier>exec</classifier>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
