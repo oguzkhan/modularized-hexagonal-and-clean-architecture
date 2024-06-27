@@ -1,3 +1,4 @@
+<link href="GitHub.css" rel="stylesheet"></link>
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/oguzkhan/modularized-hexagonal-and-clean-architecture/blob/master/README.md)
 [![es](https://img.shields.io/badge/lang-tr-red.svg)](https://github.com/oguzkhan/modularized-hexagonal-and-clean-architecture/blob/master/README.tr.md)
 
