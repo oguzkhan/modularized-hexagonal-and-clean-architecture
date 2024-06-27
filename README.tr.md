@@ -42,6 +42,6 @@ Input'ların hangi kurallara göre doğrulanması gerektiğinin tanımlanması i
 ### KULLANIM
 - Projede yer alan konseptleri kendi uygulamalarınızda gönül rahatlığı ile kullanabilirsiniz. Repo'nun geliştiricisine proje ile ilgili görüşlerinizi, varsa bug raporlarınızı iletebilirsiniz.
 - İlerde elinizin altında olmasını istiyorsanız repo'ya star verebilirsiniz. Bu yolla geliştiricinin bu repo'nun sizin için faydalı olduğunu öğrenmesini ve geliştirmelere devam etmesini sağlayabilirsiniz. 
-  <span class="green">Keyfini sürün!</span>
+- Keyfini sürün!
 
 

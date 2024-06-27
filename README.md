@@ -43,6 +43,6 @@ Business info logging is invoked via Logging Port inside Application Services an
 ### USAGE
 - Feel free to adopt the concepts in your project setups. You can also give feedback to author about your thoughts on this architecture and can also report bugs. 
 - You may give a star to this repository to save it for further use. By doing so, you will inform author that this kind of material is useful for you and make them continue development.
-Have fun!
+- Have fun!
 
 
