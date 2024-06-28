@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-class PrimaryConfig {
+class PrimaryPortConfig {
 
     @Bean
     FilmRepositoryPort filmRepositoryPort(final FilmJpaRepository filmJpaRepository){
